@@ -1,0 +1,28 @@
+{% block body %}
+{% if session['logged_in'] %}
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+<h1>Hi sir</h1>
+
+<form action="/logout">
+	<button id="logout" value="submit">logout</button>
+</form>
+  
+<script> 
+  //$("button").click(function() {
+	//$.ajax({
+	  // url: "localhost:5000/logout",
+	   //type:"POST",
+	   //success: function(response) {
+		// console.log("inside success function");
+		 
+	   //}
+	//});
+	//console.log("done with ajax call");
+//});
+</script>
+{% endif %}
+{% endblock %}
