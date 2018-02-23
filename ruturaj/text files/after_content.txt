@@ -1,0 +1,37 @@
+</div>
+        <div class="col-md-1"></div>
+
+
+        <div class="col-md-3" style="background-color:white; box-shadow:5px 5px lightgrey" ><strong>The Game Recommender</strong></br>
+            </br>
+            <form action="/game_rec/{{ value }}" method="POST"> <!--  game recommender form  -->
+            <select class="custom-select btn btn-dark" name="selected_genre">
+  <option selected  >Genre</option>
+  <option >Action</option>
+  <option >Arcade</option>
+  <option >Horror</option>
+</select>
+            </br>
+            </br>
+           <input type="submit"  value="Go">
+
+
+
+
+            </form>
+
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+</html>
