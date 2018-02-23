@@ -1,0 +1,79 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>Profile articles</title>
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">GAME-DOG</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/login/myprofile/{{ value }}">My profile <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/login/my_articles/{{ value }}">My articles</a>
+      </li>
+      <!-- DROPDOWN-->
+      <li class="nav-item">
+        <a class="nav-link" href="/explore/{{ value }}">Explore</a>
+      </li>
+        </ul>
+        <ul class="navbar-nav mr-right">
+        <li class="nav-item">
+
+            <a class="nav-link" href="/logout">Logout</a>
+
+
+      </li>
+    </ul>
+    <!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </div>
+</nav>
+<form action="/login/myarticles/{{ value }}">
+<div class="row" >
+    <div class="col-md-12" style="background-color:#f29941"> <input class="btn btn-info" style="float:right;margin-right:100px;" type="submit" value="Write article" > </div>
+
+</div>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-3" style="box-shadow:5px 5px lightgrey"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7" style="box-shadow:5px 5px lightgrey;"><h2> Your Articles </h2><hr></br><h4><a href='/gallery/articles/ruturaj_The God.html/ruturaj'>The God</a></h4></br><h6>Published on 2018-2-21 17-38-20</h6></br><hr><h4><a href='/gallery/articles/ruturaj_Dog in Paradise.html/ruturaj'>Dog in Paradise</a></h4></br><h6>Published on 2018-2-21 17-37-37</h6></br><hr><h4><a href='/gallery/articles/ruturaj_Hello People.html/ruturaj'>Hello People</a></h4></br><h6>Published on 2018-2-21 17-34-2</h6></br><hr><h4><a href='/gallery/articles/ruturaj_All Done.html/ruturaj'>All Done</a></h4></br><h6>Published on 2018-2-21 17-32-16</h6></br><hr><h4><a href='/gallery/articles/ruturaj_GTA V.html/ruturaj'>GTA V</a></h4></br><h6>Published on 2018-2-21 2-39-48</h6></br><hr><h4><a href='/gallery/articles/ruturaj_Exploring Regions.html/ruturaj'>Exploring Regions</a></h4></br><h6>Published on 2018-02-21 01-20-22</h6></br><hr> <!-- displaying articles written -->
+
+
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+</div>
+</form>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+
+</html>
